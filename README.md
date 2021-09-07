@@ -8,10 +8,10 @@
 <br />
 <p align="center">
   <a href="https://github.com/WavEC-Offshore-Renewables/EMF_modeling_tool">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/wese-news.jpg" alt="Logo" width="320" height="180">
   </a>
 
-  <h3 align="center">EMF_modeling_tool</h3>
+  <h3 align="center">subsea cable EMF modeling tool</h3>
 
 
 
