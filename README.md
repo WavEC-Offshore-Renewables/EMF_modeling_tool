@@ -50,6 +50,10 @@ This code was developed within the scope of WESE project, funded by the European
 
 It leverages significantly from the [Finite Element Method Magnetics (FEMM)](https://www.femm.info/) software package, a simple, low computational cost software package for solving electromagnetic projects using finite element method. Using it's python API, this code develop to generating specific submarine cable designs, by adjusting relevant cable component dimensions, electromagnetic properties and electrical characteristics. 
 
+<p align="center">
+  <a href="https://github.com/WavEC-Offshore-Renewables/EMF_modeling_tool">
+    <img src="images/wese-news.jpg" alt="Logo" width="320" height="180">
+  </a>
 
 <!-- GETTING STARTED -->
 
@@ -61,35 +65,22 @@ You'll need to have latest version of the [Finite Element Method Magnetics (FEMM
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The code definetly lacks structure, but it's functional and should work straighforwardly. The following inputs can be found
+The code definetly lacks structure, but it's functional and should work straighforwardly. The following variables are accessible in the inital code lines:
 
-Subsea Cable Dimensions: 
-•	Conductor cross sectional area (mm2)
-•	Conductor screen thickness (mm)
-•	Conductor insulation thickness (mm)
-•	Conductor insulation nonmetallic screen thickness 
-•	Conductor insulation metallic screen thickness (mm)
-•	Bedding thickness (mm)
-•	Armour radius (mm)
-•	2nd Armour layer radius (mm) -> set 0 if non-existent
-•	Over Sheath thickness (mm)
-•	Burial depth [mm] -> set 0 if surface laid
+| Subsea Cable Dimensions                                    | Electromagnetic properties     | Electrical Characteristics    |
+| :---                                                       |    :----:                      |          ---:                 |
+| •	Conductor cross sectional area (mm2)                     | Conductors                     | RMS Phase Current (A)         |
+| •	Conductor screen thickness (mm)                          | Insulation                     | Grid frequency (Hz)           |
+| •	Conductor insulation thickness (mm)                      | Nonmetallic Insulation Screen  |        |
+| •	Conductor insulation nonmetallic screen thickness (mm)   | Metallic Insulation screen     |        |
+| •	Bedding thickness (mm)                                   | Inner Sheath                   |        |
+| •	2nd Armour layer radius (mm) -> set 0 if non-existent    | Bedding                        |        |
+| •	Over Sheath thickness (mm)                               | Armour                         |        |
+| •	Burial depth [mm] -> set 0 if surface laid               | Over sheath                    |        |
+|                                                            | Seawater                       |        |
+|                                                            | Seabed                         |        |
 
 Electromagnetic properties	Definition of the conductivity (S/m) and relative permeability (unitless) of all objects:
-•	Conductors
-•	Insulation
-•	Nonmetallic Insulation Screen
-•	Metallic Insulation screen
-•	Inner Sheath	•	Bedding
-•	Armour
-•	Over sheath
-•	Seawater
-•	Seabed
-
-Electrical Characteristics	•	RMS Phase Current (A)
-•	Grid frequency (Hz)
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -101,8 +92,6 @@ Contributions are what make the open source community such an amazing place to l
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
 
 <!-- LICENSE -->
 ## License
