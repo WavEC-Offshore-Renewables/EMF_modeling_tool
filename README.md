@@ -44,46 +44,51 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 This code was developed within the scope of WESE project, funded by the European Commission, which aims to increase the knowledge over the potential environmental effects of ocean energy projects. This specific piece of code, is part of the EMF modelling task, and aims to estimate the estimate the EMF radiated from operating subsea pwer cables used in offshore renewable energy projects.
 
-It leverages significantly from the [Finite Element Method Magnetics (FEMM)](https://www.femm.info/) software package, a simple, low computational cost software package for solving electromagnetic projects using finite element method. Using it's python API,  a simple framework was develop to generating specific submarine cable designs, by adjusting relevant cable component dimensions, electromagnetic properties and electrical characteristics. 
+It leverages significantly from the [Finite Element Method Magnetics (FEMM)](https://www.femm.info/) software package, a simple, low computational cost software package for solving electromagnetic projects using finite element method. Using it's python API, this code develop to generating specific submarine cable designs, by adjusting relevant cable component dimensions, electromagnetic properties and electrical characteristics. 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/WavEC-Offshore-Renewables/EMF_modeling_tool.git
-   ```
-2. Install pyFEMM packages
-   ```sh
-   pyFEMM install
-   ```
-
+You'll need to have latest version of the [Finite Element Method Magnetics (FEMM)](https://www.femm.info/) installed in your computer, as well as the Numpy, Scipy, pyFEMM and matplotlib python libraries.
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The code definetly lacks structure, but it's functional and should work straighforwardly. The following inputs can be found
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Subsea Cable Dimensions: 
+•	Conductor cross sectional area (mm2)
+•	Conductor screen thickness (mm)
+•	Conductor insulation thickness (mm)
+•	Conductor insulation nonmetallic screen thickness 
+•	Conductor insulation metallic screen thickness (mm)
+•	Bedding thickness (mm)
+•	Armour radius (mm)
+•	2nd Armour layer radius (mm) -> set 0 if non-existent
+•	Over Sheath thickness (mm)
+•	Burial depth [mm] -> set 0 if surface laid
+
+Electromagnetic properties	Definition of the conductivity (S/m) and relative permeability (unitless) of all objects:
+•	Conductors
+•	Insulation
+•	Nonmetallic Insulation Screen
+•	Metallic Insulation screen
+•	Inner Sheath	•	Bedding
+•	Armour
+•	Over sheath
+•	Seawater
+•	Seabed
+
+Electrical Characteristics	•	RMS Phase Current (A)
+•	Grid frequency (Hz)
+
 
 
 <!-- CONTRIBUTING -->
