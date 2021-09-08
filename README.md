@@ -11,7 +11,7 @@
     <img src="images/wese-news.jpg" alt="Logo" width="320" height="180">
   </a>
 
-  <h3 align="center">subsea cable EMF modeling tool</h3>
+  <h3 align="center">Subsea power cable EMF modeling tool</h3>
 
 
 
@@ -47,20 +47,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+This code was developed within the scope of WESE project, funded by the European Commission, which aims to increase the knowledge over the potential environmental effects of ocean energy projects. This specific piece of code, is part of the EMF modelling task, and aims to estimate the estimate the EMF radiated from operating subsea pwer cables used in offshore renewable energy projects.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
-
-
-### Built With
-
-* []()
-* []()
-* []()
-
+It leverages significantly from the [Finite Element Method Magnetics (FEMM)](https://www.femm.info/) software package, a simple, low computational cost software package for solving electromagnetic projects using finite element method. Using it's python API,  a simple framework was develop to generating specific submarine cable designs, by adjusting relevant cable component dimensions, electromagnetic properties and electrical characteristics. 
 
 
 <!-- GETTING STARTED -->
@@ -80,11 +69,11 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/WavEC-Offshore-Renewables/repo_name.git
+   git clone https://github.com/WavEC-Offshore-Renewables/EMF_modeling_tool.git
    ```
-2. Install NPM packages
+2. Install pyFEMM packages
    ```sh
-   npm install
+   pyFEMM install
    ```
 
 
@@ -120,9 +109,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Paulo Chainho - [Linkedin](www.linkedin.com/in/paulo-chainho) - paulo@wavec.org
 
-Project Link: [https://github.com/WavEC-Offshore-Renewables/repo_name](https://github.com/WavEC-Offshore-Renewables/repo_name)
+Project Link: [https://github.com/WavEC-Offshore-Renewables/EMF_modeling_tool](https://github.com/WavEC-Offshore-Renewables/EMF_modeling_tool)
 
 
 
