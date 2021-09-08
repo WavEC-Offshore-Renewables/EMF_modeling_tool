@@ -52,7 +52,7 @@ It leverages significantly from the [Finite Element Method Magnetics (FEMM)](htt
 
 <p align="center">
   <a href="https://github.com/WavEC-Offshore-Renewables/EMF_modeling_tool">
-    <img src="images/wese-news.jpg" alt="Logo" width="320" height="180">
+    <img src="images/cable.png" alt="Logo" width="447" height="132">
   </a>
 
 <!-- GETTING STARTED -->
@@ -82,22 +82,10 @@ The code definetly lacks structure, but it's functional and should work straighf
 
 Electromagnetic properties	Definition of the conductivity (S/m) and relative permeability (unitless) of all objects:
 
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
 
 
 <!-- CONTACT -->
@@ -107,12 +95,10 @@ Paulo Chainho - [Linkedin](www.linkedin.com/in/paulo-chainho) - paulo@wavec.org
 
 Project Link: [https://github.com/WavEC-Offshore-Renewables/EMF_modeling_tool](https://github.com/WavEC-Offshore-Renewables/EMF_modeling_tool)
 
-
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* All contributors ot the development of FEMM software package, in particular the main developer -> David Meeker !
+* Kilian Krugel, for putting together the methodology to automate the cable drawings in FEMM.
+
 
